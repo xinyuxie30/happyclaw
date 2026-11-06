@@ -44,9 +44,11 @@
 
 ## HappyClaw 是什么
 
-HappyClaw 是一个基于 [Claude Agent SDK for TypeScript](https://github.com/anthropics/claude-agent-sdk-typescript) 的自托管 AI 智能体系统。它把完整的 Claude Code 运行时封装成一个可持续运行的多用户服务，让你可以从浏览器、飞书、Telegram、QQ、钉钉、微信、企业微信、Discord 或 WhatsApp 使用同一套智能体、工作区、能力和自动化任务。
+HappyClaw 是一个可以自己部署的 AI 助手工作台。把服务运行在自己的机器上，就能通过浏览器、飞书、Telegram、QQ、钉钉、微信、企业微信、Discord 或 WhatsApp 与智能体协作，处理项目文件、终端命令和定时任务。
 
-HappyClaw 不是一个简单的聊天 API Wrapper。智能体运行在真实的 Claude Code 环境中，可以读写项目文件、执行终端命令、使用浏览器、调用 MCP、加载 Skills，并在多个独立工作区和会话之间保持清晰的权限与上下文边界。
+它基于 [Claude Agent SDK for TypeScript](https://github.com/anthropics/claude-agent-sdk-typescript)，支持多用户、多个独立工作区和会话；工作区可以使用经授权的宿主机目录，也可以在 Docker 容器中运行。模型、消息渠道和执行环境需要按自己的使用场景配置。
+
+> 本仓库 fork 自 [riba2534/happyclaw](https://github.com/riba2534/happyclaw)，官网及部分链接指向上游项目。
 
 ### 为什么使用 HappyClaw
 
@@ -601,3 +603,4 @@ HappyClaw 是独立开源项目，与 Anthropic 及各消息平台不存在官�
 <p align="center">
   如果 HappyClaw 对你有帮助，欢迎点一个 Star ⭐
 </p>
+
